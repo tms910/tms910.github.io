@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.child{
+    border:1px solid black;
+    height:14px;
+    width:14px;
+}
