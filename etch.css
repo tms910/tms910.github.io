@@ -5,8 +5,12 @@
     width: fit-content;
 }
 
-.child{
+*[class^='child']{
     border:1px solid black;
     height:14px;
     width:14px;
+}
+
+button{
+    background-color: gold;
 }
