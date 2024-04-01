@@ -24,8 +24,8 @@ for(let b=0; b<16**2; b++){
     container.style.visibility='visible';
     const div=document.createElement('div');
     div.setAttribute('class',`child${b}`);
-    div.style.height=`${500/16-1.6}px`;
-    div.style.width=`${500/16-1.6}px`;
+    div.style.height=`${500/16}px`;
+    div.style.width=`${500/16}px`;
     container.appendChild(div);
 
     div.addEventListener("mouseover",(event)=>{
@@ -45,8 +45,8 @@ button.addEventListener('click',(event)=>{
         container.style.visibility='visible';
         const div=document.createElement('div');
         div.setAttribute('class',`child${a}`);
-        div.style.height=`${500/i-1.6}px`;
-        div.style.width=`${500/i-1.6}px`;
+        div.style.height=`${500/i}px`;
+        div.style.width=`${500/i}px`;
         container.appendChild(div);
         
         div.addEventListener("mouseover",(event)=>{

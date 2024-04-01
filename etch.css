@@ -4,6 +4,7 @@
 }
 
 *[class^='child']{
+    box-sizing: border-box;
     border:1px solid white;
     background-color: transparent;
     
