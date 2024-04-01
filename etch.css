@@ -4,15 +4,31 @@
 }
 
 *[class^='child']{
-    border:1px solid black;
-    background-color: orange;
+    border:1px solid white;
+    background-color: transparent;
+    
 }
 
 button{
+    border:4px groove #455d7a;
+    border-radius: 5px;
     margin-top: 2rem;
-    background-color:#F0FFFF;
-    color:black;
+    background-color:transparent;
+    color:white;
     font-size: 20px;
+    padding:5px;
+    font-weight:900;
+    font-style: italic;
+}
+
+button:hover{
+    background-color:white;
+    color:black;
+}
+
+button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
 }
 
 html,body{
